@@ -1,0 +1,144 @@
+body {
+    background-image: url('https://www.themoviedb.org/t/p/original/8hoD5BQuUV9dDecAbiyVIxLjzZ9.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: transparent;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+h1 {
+    color: darkslategray;
+}
+
+.home-links {
+    color:white;
+    font-size: 25px;
+}
+
+.user-list {
+    height: 225px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 0;
+    width: 100%;
+}
+
+.user-links {
+    color:black
+}
+
+.home-page-users {
+    column-gap: 100px;
+}
+
+.user-name-link-background {
+    color: white;
+    background-color: #b24040;
+    border-radius: 2px;
+    box-shadow: 4px 4px indianred;
+}
+
+.bookmark-list-padding {
+    padding-bottom: 50px;
+}
+
+.bottom-padding {
+    padding-bottom: 50px;
+}
+
+.homepage-icons {
+    display:inline-grid;
+    grid-template-columns: repeat(auto-fit, minmax(193px, 1fr));
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: whitesmoke;
+    outline-color: transparent;
+    padding: 0;
+}
+
+.author-reader-list {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.home-description {
+    color:white;
+    font-size: 18px;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    background: whitesmoke;
+    border: 1px solid beige;
+    border-radius: 5px;
+}
+
+.bottom-padding {
+    padding-bottom: 50px;
+}
+
+
+
+.title-class {
+    background-color: whitesmoke;
+}
+
+.fa-bookmark {
+    color: white;
+    padding-left: 60px;
+}
+
+.fa-book {
+    color: white;
+}
+
+.bookmark {
+    font-size: 20px;
+    color: white;
+}
+
+.bottom-padding {
+    padding-bottom: 50px;
+}
+
+.title-color {
+    color: white
+}
+
+.detail-fields {
+    font-weight: bolder;
+}
+
+.library-padding {
+    padding-top: 7px;
+}
+
+.left-padding {
+    padding-left: 70px;
+}
+
+.left-reader-padding {
+    padding-left: 320px;
+}
+
+.left-author-padding {
+    padding-left: 540px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-warning{
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
