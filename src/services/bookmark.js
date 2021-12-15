@@ -1,5 +1,5 @@
-const LOCAL_API = 'https://fp4550.herokuapp.com/api/';
-// const LOCAL_API = process.env.REACT_APP_USER_API
+//const LOCAL_API = 'https://fp4550.herokuapp.com/api/';
+ const LOCAL_API = process.env.REACT_APP_USER_API
 
 export const addBookmark = (filmId, userId, username, filmTitle) => {
     console.log( filmTitle);

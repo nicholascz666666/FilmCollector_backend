@@ -1,5 +1,5 @@
-const USER_API = "https://fp4550.herokuapp.com/api/";
-//const USER_API = process.env.REACT_APP_USER_API
+//const USER_API = "https://fp4550.herokuapp.com/api/";
+const USER_API = process.env.REACT_APP_USER_API
 
 export const register = (username, password, fullName, email, role) => {
     return fetch(`${USER_API}/register`, {

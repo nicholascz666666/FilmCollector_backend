@@ -1,5 +1,5 @@
-const LOCAL_API = 'https://fp4550.herokuapp.com/api/';
-//const LOCAL_API = process.env.REACT_APP_USER_API
+//const LOCAL_API = 'https://fp4550.herokuapp.com/api/';
+const LOCAL_API = process.env.REACT_APP_USER_API
 
 export const addRecommendation = (filmId, userId, username, filmTitle) => {
     return fetch(`${LOCAL_API}/recommendations/add`, {
